@@ -8,7 +8,7 @@ The format is based on Keep a Changelog, with versions tracked in the repository
 
 ### Security
 
-- Updated Electron to 42.11.12 and fast-uri to a patched release. Development now requires Node.js 22.12 or later; macOS notifications require a signed app with Electron 42.
+- Updated Electron to 42.11.12 and fast-uri to a patched release, with better-sqlite3 12.11.1 for Electron 42 compatibility. Development now requires Node.js 22.12 or later; macOS notifications require a signed app with Electron 42.
 
 ## [0.0.24-beta.0] - 2026-07-02
 

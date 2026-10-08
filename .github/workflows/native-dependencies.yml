@@ -17,6 +17,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: native-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   native-smoke:
     name: Electron and SQLite (${{ matrix.os }})
